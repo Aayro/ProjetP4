@@ -552,6 +552,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    padding-top: 3px;
 }
 
 a[data-lightbox]:hover img {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -740,6 +741,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    width: 100%;
     margin-bottom: 24px;
 }
 
@@ -775,17 +777,19 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fce1d5 !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #f3976c;
+    color: #3f3f3f !important;
 }
 
+
+
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956 !important;
+    color: #3f3f3f !important;
 }
 
 .ltc-white {
@@ -824,6 +828,27 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+.quote p {
+    margin: 0;
+    padding: 0 2em;
+    font-size: 20px;
+    font-style: italic;
+    border: none;
+    color: #575757;
+}
+
+.greyblack{
+    color: #3f3f3f!important;
+}
+
+footer section div article section h3{
+    color: #313131!important;
+}
+
+footer section div article section ul li a {
+    color: #000 !important;
+  }
 
 @media (max-width: 1024px) {
     .bloc {
